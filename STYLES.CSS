@@ -1,0 +1,77 @@
+ 
+body{
+    margin: 0cm;
+    font-family: 'Roboto', sans-serif;
+}
+ol,
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: yellow ;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul{
+    display: flex;
+    gap: 1cm
+}
+
+header nav ul li{
+    color:darkblue;
+}
+
+header a i{
+    color:red;
+    font-size: 2cm;
+    padding: 0cm;
+
+}
+.seccion-principal{
+    display: flex;
+}
+
+.parrafo1 {color:blue}
+.parrafo2 {color:purple}
+
+.acercaimagen{
+    height: 1px;
+}
+footer{
+    background-color: yellowgreen;
+    ;
+}
+footer h3 a{
+    color: blueviolet;
+    align-content: flex-end;
+}
+.h3 a{
+    justify-content:center;
+}
+.seccion-1{
+    background-color: pink;
+    width:  30cm;
+    height: 200px;
+    flex: 1;
+    display: flex;
+    align-items: center; 
+}
+.seccion-1 img{ 
+    height: 2cm;
+    margin-left: 300px
+}
+.seccion-2{
+    display: flex;
+   }
+
+.trabajos h3 p {
+    display:flex;
+    justify-content: space-between;
+}
